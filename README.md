@@ -1,7 +1,7 @@
 # 오늘의 수업
 [메인 페이지](https://leejaedung.github.io/class2024/)
 
-[자바스크립트](https://leejaedung.github.io/class2024/javasctipt/index.html)
+[자바스크립트](https://leejaedung.github.io/class2024/javascript/index.html)
 
 
 
