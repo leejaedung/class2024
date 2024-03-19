@@ -1,4 +1,10 @@
 # 오늘의 수업
+[메인 페이지](https://leejaedung.github.io/class2024/)
+
+[자바스크립트](https://leejaedung.github.io/class2024/javasctipt/index.htmr)
+
+
+
 자기소개 한타. 500타 
 9시 반/
 정보처리/웹디자인기능사
