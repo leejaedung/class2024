@@ -11,7 +11,7 @@
 
 <body>
     <div class="main__icons">
-        <div class="draggableIcon icon">
+        <div id="myComputerIcon" class="draggableIcon icon">
             <img src="assets/img/face.png" alt="내 컴퓨터">
             <span>내 컴퓨터</span>
         </div>
@@ -24,7 +24,7 @@
     </div>
     <!-- //main__icons -->
 
-    <div class="layer__wrap" style="display: none;">
+    <div class="layer__wrap" id="infoLayer" style="display: block;">
         <div class="layer__inner">
             <div class="layer">
                 <div class="layer__conts">
@@ -43,12 +43,67 @@
                             새로운 프레임워크와 라이브러리를 배우는 것에 능동적으로 참여하여 기술 스택을 지속적으로 확장하고 있습니다
                         </p>
                     </div>
+                    <div class="skill">
+                        <h3>skill</h3>
+                        <dl>
+                            <dt>html</dt>
+                            <dd>HTML을 배워서 웹 개발에 흥미를 느끼고 있습니다. 웹 개발을 통해 멋진 프로젝트를 만들고 싶습니다.
+
+                                저는 HTML뿐만 아니라 CSS와 JavaScript도 공부하고 있어서 웹 페이지를 더 다채롭게 꾸밀 수 있습니다.
+
+                                더 많은 것을 배우고 싶어서 항상 새로운 기술에 관심을 가지고 있습니다. 개발 커뮤니티에 참여하여 함께 성장하고 싶습니다.</dd>
+                            <dt>css</dt>
+                            <dd>CSS(Cascading Style Sheets): 웹 페이지의 스타일을 지정하는 데 사용되는 스타일 시트 언어입니다.</dd>
+                            <dt>javascript</dt>
+                            <dd>JavaScript: 웹 페이지를 동적이고 상호작용이 가능하게 만들어주는 프로그래밍 언어로, 클라이언트 사이드 스크립트로 가장 널리 사용됩니다.</dd>
+                        </dl>
+                        <dl>
+                            <dt>react.js</dt>
+                            <dd>React.js: 사용자 인터페이스를 구축하기 위한 선언적, 효율적이고 유연한 JavaScript 라이브러리입니다.</dd>
+                            <dt>veu.js</dt>
+                            <dd>Node.js: 서버 사이드 및 네트워킹 애플리케이션을 구축하기 위한 JavaScript 런타임 환경입니다</dd>
+                            <dt>next.js</dt>
+                            <dd>Next.js: 서버 사이드 렌더링(SSR) 및 정적 웹 사이트 생성을 위한 React 프레임워크입니다.</dd>
+                        </dl>
+                    </div>
+                    <div class="picture">
+                        <h3>intro</h3>
+                        <ul>
+                            <li><img src="assets/img/face.png" alt="소개1"></li>
+                            <li><img src="assets/img/face.png" alt="소개2"></li>
+                            <li><img src="assets/img/face.png" alt="소개3"></li>
+                            <li><img src="assets/img/face.png" alt="소개4"></li>
+                            <li><img src="assets/img/face.png" alt="소개5"></li>
+                            <li><img src="assets/img/face.png" alt="소개6"></li>
+                            <li><img src="assets/img/face.png" alt="소개7"></li>
+                            <li><img src="assets/img/face.png" alt="소개8"></li>
+                            <li><img src="assets/img/face.png" alt="소개9"></li>
+                            <li><img src="assets/img/face.png" alt="소개10"></li>
+                            <li><img src="assets/img/face.png" alt="소개11"></li>
+                            <li><img src="assets/img/face.png" alt="소개12"></li>
+                            <li><img src="assets/img/face.png" alt="소개13"></li>
+                            <li><img src="assets/img/face.png" alt="소개14"></li>
+                            <li><img src="assets/img/face.png" alt="소개15"></li>
+                            <li><img src="assets/img/face.png" alt="소개16"></li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="layer__footer"></div>
             </div>
         </div>
     </div>
     <!-- //layer__wrap -->
+
+    <script>
+        document.getElementById('myComputerIcon').addEventListener('click', function () {
+            let layer = document.getElementById('infoLayer');
+            if (layer.style.display === "none") {
+                layer.style.display = "block"; // 레이어를 보이게 함
+            } else {
+                layer.style.display = "none"; // 레이어를 숨김
+            }
+        });
+    </script>
 </body>
 
 </html>
